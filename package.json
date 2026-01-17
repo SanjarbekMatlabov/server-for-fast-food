@@ -11,12 +11,13 @@
     "seed": "node --loader ts-node/esm src/utils/seed.ts"
   },
   "keywords": [],
-  "author": "", 
+  "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
     "@faker-js/faker": "^10.1.0",
     "@prisma/client": "6.18",
+    "autocannon": "^8.0.0",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
     "express": "^5.2.1",
